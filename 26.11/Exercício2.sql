@@ -54,4 +54,4 @@ create table tb_pizza (
 	select * from tb_pizza inner join tb_categoria on tb_categoria.id_categoria = tb_pizza.id_pizza;
 
 	-- Faça um select onde traga todos os Produtos de uma categoria específica
-	select * from tb_pizza inner join tb_categoria on tb_categoria.id_categoria = tb_pizza.id_pizza where tipo like "%doce%";
+	select * from tb_pizza inner join tb_categoria on tb_categoria.id_categoria = tb_pizza.id_pizza where tipo like "%doce%";tb_postagens
